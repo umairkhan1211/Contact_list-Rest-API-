@@ -1,0 +1,119 @@
+.left-container {
+    height: calc(100vh - 7vh);
+    width: 37.87vw;
+    border-right: 1px solid rgb(181, 171, 171);
+    background: #faf9ff;
+    margin-top: -37px;
+    padding-top: 38px;
+}
+
+.h4{
+    margin-left: 15px;
+    margin-bottom: -16px;
+    margin-top: 38px;
+    color:#9194af;
+    background: #faf9ff;
+    
+}
+
+.h1{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+   
+    margin-left: 15px;
+}
+
+.h1 h4{
+    color:#46454b
+}
+
+.h1 i {
+    margin-left: 211px;
+}
+
+.list {
+    padding: 3px 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+.contact img {
+    margin-right: 10px;
+    border-radius: 35%; /* Changed to 50% for a perfect circle */
+    width: 47px;
+    height: 47px; /* Adjust height to match width */
+}
+
+.contact-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.contact-body-text {
+    display: flex;
+    flex-direction: column;
+}
+.contact-body-text  p {
+   color: #9194af;
+}
+
+
+
+.contact-body h5,
+.contact-body p {
+    margin: 0;
+}
+
+.contact-body p {
+    margin-top: 4px; /* Adjust spacing as needed */
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center; /* Center icons vertically */
+}
+
+.icons a:hover{
+    background-color: 
+    #edecf5;
+}
+
+.icons a {
+    padding: 5px; /* Adjust padding as needed */
+    background: #f2f1f9;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 25px; /* Adjust height as needed */
+    width: 25px; /* Adjust width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center icon text */
+    text-decoration: none; /* Remove underline from anchor */
+    color: inherit; /* Inherit color from parent */
+}
+
+.icons a:last-child {
+    margin-right: 0;
+}
+
+
+.icons i:hover{
+    color: 
+    #6552d1;
+}
+.icons i{
+    font-size: 15px;
+    color: #7d819f;
+}
